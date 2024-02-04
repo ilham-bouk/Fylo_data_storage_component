@@ -1,0 +1,109 @@
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: hsl(229, 57%, 11%);
+    background-image: url(../images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position-y: 50vh;
+    background-size: cover;
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    transform: translateY(132%);
+    gap: 20px;
+}
+header {
+    background-color: hsl(228, 56%, 26%);
+    padding: 30px 100px 30px 30px;
+    border-radius: 10px 80px 10px 10px;
+}
+.links {
+    display: flex;
+    gap: 10px;
+    padding-top: 25px;
+}
+.links .img {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+}
+.links .img img {
+    background-color: hsl(229, 57%, 11%);
+}
+main {
+    background-color: hsl(228, 56%, 26%);
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    height: fit-content;
+    bottom: -40px;
+    position: relative;
+}
+p {
+    font-size: 14px;
+    margin-top: 0;
+    color: hsl(243, 100%, 93%);
+}
+p span {
+    color: white;
+}
+.value {
+    position: absolute;
+    background-color: white;
+    color: hsl(229, 7%, 55%);
+    top: -30px;
+    right: 28px;
+    padding: 10px 20px;
+    font-size: 10px;
+    border-radius: 10px 10px 0;
+}
+.value::after {
+    position: absolute;
+    content: "";
+    border: 15px solid;
+    border-color: white transparent transparent;
+    bottom: -12px;
+    right: -14px;
+    transform: rotate(-135deg);
+}
+.value span {
+    font-weight: bold;
+    font-size: 28px;
+    color: hsl(229, 57%, 11%);
+}
+.prog {
+    width: 458px;
+    height: 10px;
+    background-color: hsl(229, 57%, 11%);
+    position: relative;
+    display: block;
+    border-radius: 10px;
+    border: 2px solid hsl(229, 57%, 11%);
+}
+.prog span {
+    width: 81.5%;
+    height: 10px;
+    display: block;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%) , hsl(335, 100%, 65%));
+    border-radius: 10px;
+    position: relative;
+}
+.prog span::after {
+    position: absolute;
+    content: "";
+    background-color: white;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    right: 2px;
+    bottom: 1px;
+}
+.number {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding-top: 5px;
+}
