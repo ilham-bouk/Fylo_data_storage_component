@@ -1,5 +1,7 @@
 # Frontend Mentor - Fylo data storage component solution
 
+![Design preview for the Intro Component With Sign_up Form coding challenge](design/desktop-preview.jpg)
+
 ## Welcome! 👋
 
 Thanks for checking out my solution of Fylo data storage component Form front-end coding challenge from Frontend Mentor.<br>
@@ -28,7 +30,7 @@ I do not have access to the Figma sketch so the design is not pixel perfect.
 
 ### Links
 
-- Solution URL: [Solution URL]()
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/fylo-data-storage-component-solution-WYB7tTvqq6)
 - Live Site URL: [Live site URL](https://ilham-bouk.github.io/Fylo_data_storage_component/)
 
 ## My process
@@ -51,6 +53,6 @@ There is also a `style-guide.md` file containing the information you'll need, su
 
 ## Acknowledgments
 
-A big thank you to anyone providing feedback on [my solution](). It definitely helps to find new ways to code and find easier solutions!
+A big thank you to anyone providing feedback on [my solution](https://www.frontendmentor.io/solutions/fylo-data-storage-component-solution-WYB7tTvqq6). It definitely helps to find new ways to code and find easier solutions!
 
 **Happy coding!** ☺️🚀
